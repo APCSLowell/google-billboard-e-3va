@@ -5,7 +5,7 @@ public class GoogleBillboard {
 		for(int i = 2; i < e.length()-10; i++){
    			String digits = e.substring(i,i+10);
    			double dNum = Double.parseDouble(digits);
-   			if (isPrime(dNum) == true) {
+   			if (isPrime(dNum)) {
 				System.out.println(dNum);
      				break; // Stop after finding the first prime number
     			}
